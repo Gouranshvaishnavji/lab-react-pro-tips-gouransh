@@ -148,7 +148,7 @@
 import { useState, useEffect } from 'react';
 import './Form.css';
 
-function Registration() {
+function Form() {
  const [formValues, setFormValues] = useState({ username: "", lastname: "", email: "", phoneno: "" });
  const [formErrors, setFormErrors] = useState({});
  const [submit, setSubmit] = useState(false);
@@ -239,4 +239,4 @@ function Registration() {
  );
 }
 
-export default Registration;
+export default Form;
