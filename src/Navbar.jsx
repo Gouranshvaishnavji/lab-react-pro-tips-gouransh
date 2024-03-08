@@ -12,7 +12,7 @@ function Navbar() {
           <Link to='/contact'>Contacts</Link>
         </li>
         <li>
-          <Link to='/formm'>Form</Link>
+          <Link to='/form'>Form</Link>
         </li>
       </ul>
     </div>
